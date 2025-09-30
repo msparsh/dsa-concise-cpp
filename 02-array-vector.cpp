@@ -1,6 +1,16 @@
 #include <iostream>
 #include <vector>
 
+
+// Using ref & for not copying
+int sum(const std::vector<int>& L){
+    int c = 0;
+    for (const int l : L) {
+        c += l;
+    }
+    return c;
+}
+
 int main()
 {
     int arr_primes[6] = {2, 3, 5, 7, 11, 13};
@@ -19,6 +29,8 @@ int main()
         std::cout<<p<<"-";
     }
     std::cout<<std::endl;
+
+    std::cout<< "Sum of primes: "<< sum(primes);
 
 
 }
