@@ -7,7 +7,7 @@
 // 3. for second window 'add' k+1th and 'subtract' 0th
 // 4. so on until left == len
 
-// Variable window size:
+// Variable window size (yet to implement):
 // left = right = 0
 // 'add' right
 //       if condition TRUE
