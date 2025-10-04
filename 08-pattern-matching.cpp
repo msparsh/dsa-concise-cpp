@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int naiveSearch(const std::string &text, const std::string &pattern)
+int naiveSearch(const std::string & text, const std::string & pattern)
 {
     int len_text = text.length();
     int len_pattern = pattern.length();
