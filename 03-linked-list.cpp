@@ -1,5 +1,7 @@
 #include <iostream>
 
+// use std::forward_list instead of implementing
+
 class Node {
  public:
   int value;
